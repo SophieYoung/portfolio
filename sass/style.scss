@@ -95,6 +95,7 @@ ul.menu{
 	        flex: 1 0 auto;
 }
 
+
 /*
 ====================================
 HEADER STYLES 
@@ -133,12 +134,12 @@ nav {
 	position: absolute;
 	color:white;
 	width: 100%;
-	padding-top: 170px;
+	padding-top: 240px;
 	text-align: center;
 	z-index: 99;
 	margin:0 auto;
 	font-size: 3.5rem;
-	line-height: 6rem;
+	line-height: 4rem;
 
 	}
 }
@@ -217,6 +218,9 @@ nav {
 	h3, h4 {
 		text-align: center;
 		margin:0 1rem;
+	}
+	h3 {
+		font-size: 2rem;
 	}
 	a.link {
 		background-color: $red;
@@ -349,6 +353,9 @@ nav {
 	.workDescription{
 		width: 100%;
 		margin-bottom:3px;
+		h3 {
+			font-size: 1.5rem;
+		}
 	}
 
 	.description {
@@ -366,23 +373,27 @@ nav {
 	.headshot, .aboutCaption {
 		width:100%;
 	}
+
+	.aboutCaption {
+		padding: 1rem 1.5rem;
+	}
 	.content {
 		padding: 0;
 	}
 
 	.hero {
-		height: 50vh;
+		height: 350px;
 	}
 
 	.hero > h2{
 		font-size: 2rem;
 		line-height: 3rem;
-		padding-top: 150px;
+		padding: 150px 2rem;
+
 	}
 
 	.title {
 		font-size: 1.4rem;
-    	// padding-top: 54px;
 	}
 
 

@@ -38,8 +38,7 @@
                     <img src=" <?php  the_field('image')?>" alt=" <?php the_field('assignment') ?>">
                  </a>
 
-                 
-                  <a class="mobileLinkSite"href="<?php the_field('link')?>">Live Site</a>
+                  <a class="mobileLinkSite"href="<?php the_field('link')?>">View Live Site</a>
 
                 </div>
 
